@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 
 public class Main {
+    { System.out.println("Задание 1-8 ");}
 
 
     private static int nowYear = LocalDate.now().getYear();
