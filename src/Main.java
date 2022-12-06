@@ -1,7 +1,9 @@
 import java.time.LocalDate;
 
 public class Main {
-    { System.out.println("Задание 1-8 ");}
+    {
+        System.out.println("Задание 1-8 ");
+    }
 
 
     private static int nowYear = LocalDate.now().getYear();
@@ -47,17 +49,16 @@ public class Main {
     public static int isDistance(int distance) {
         if (distance <= 20) {
             System.out.println("Потребуется 1 день доставки ");
-            if (distance > 20 && distance <= 60) {
-                System.out.println("Потребуется 2 дня доставки ");
-            }
+            if (distance > 20 && distance <= 60){
+                System.out.println("Потребуется 2 дня доставки ");}
         } else {
             System.out.println("Потребуется 3 дня доставки ");
 
-            return distance;
         }
         return distance;
     }
 }
+
 
 
 
